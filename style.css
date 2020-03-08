@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #2f2f31;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #2f2f31;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: "Special Elite", cursive;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:bold;
+    letter-spacing:5px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
