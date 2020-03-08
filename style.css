@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -45,11 +49,18 @@ nav{
     font-size: 15px;
 }
 
-.videobg{
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
+.lake{
     width: auto;
-    height: auto;
-    overflow: hidden;
+    height: 100%;
+    position: center;
+}
+
+.introtext{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
