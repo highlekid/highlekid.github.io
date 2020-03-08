@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #2f2f31;
 }
 
 nav{
@@ -10,7 +9,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #2f2f31;
+    position: fixed;
+    top:0;
+    width:100%;
 }
 
 .logo{
@@ -42,4 +43,13 @@ nav{
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     font-size: 15px;
+}
+
+.videobg{
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
 }
