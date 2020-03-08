@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    padding: env(safe-area-inset);
 }
 
 body{
@@ -80,7 +81,6 @@ nav{
     }
 
     .nav-links{
-        padding-top: 350px; 
         position: fixed;
         top: 0;
         right: 0px;
