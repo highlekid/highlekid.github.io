@@ -12,11 +12,25 @@ function parallax(element, distance, speed) {
     item.style.transform = `translateY(${distance * speed}px)`;
 }
 
+const text = "just a random website"
+let index = 0;
+let letter = "";
+
+(function textwriter() {
+    
+    letter = text.slice(0,++index);
+    document.querySelector(".introtext").textContent = letter;
+    if(letter.length == text.length){
+        index = 0;
+    }
+
+    setTimeout(textwriter, 500);
+}());
+
 const runAll = () => {
     navSlide();
     window.addEventListener("scroll", function(){
         parallax(".intro", window.scrollY, 0.7);
-        parallax(".introtext", window.scrollY, -0.07);
     });
 }
 
