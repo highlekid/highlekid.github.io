@@ -42,6 +42,7 @@ nav{
 
 .nav-links li{
     list-style: none;
+    padding-bottom: 10px;
 }
 
 .nav-links a{
@@ -143,7 +144,7 @@ nav{
 .introtext::after{
     content: "";
     width: 1px;
-    height: 2vh;
+    height: 20px;
     border-right: 2px solid #ffffff;
     animation: blink 0.7s infinite ease;
 }
@@ -163,7 +164,7 @@ nav{
     vertical-align: top;
     min-height: 100vh;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 100px;
     font-size: 30px;
     color: #ffffff;
 }
